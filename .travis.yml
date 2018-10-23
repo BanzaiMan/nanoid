@@ -4,6 +4,7 @@ node_js:
 cache:
   directories:
     - npm_modules
+os: windows
 git:
   depth: 5
 install:
