@@ -4,7 +4,9 @@ node_js:
 cache:
   directories:
     - npm_modules
-os: windows
+env:
+  - TERM=xterm
+  - TERM=screen-256color
 git:
   depth: 5
 install:
