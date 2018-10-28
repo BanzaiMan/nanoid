@@ -12,4 +12,4 @@ git:
 install:
   - ./test/ci-install
 script:
-  - ruby ~/filter.rb "./test/ci" -e TERM
+  - ruby filter.rb "./test/ci" -e TERM
