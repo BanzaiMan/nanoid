@@ -12,4 +12,4 @@ git:
 install:
   - ./test/ci-install
 script:
-  - ruby filter.rb "/usr/bin/env TERM=$TERM ./test/ci" -s test
+  - ruby filter.rb "/usr/bin/env TERM=$TERM /bin/bash --login -c 'nvm install node && ./test/ci'" -s test
